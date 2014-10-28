@@ -14,6 +14,7 @@
 		0920966A19FFC72C00958EAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0920966919FFC72C00958EAC /* Images.xcassets */; };
 		0920966D19FFC72C00958EAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0920966B19FFC72C00958EAC /* LaunchScreen.xib */; };
 		0920967919FFC72C00958EAC /* AppSettingsAndDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0920967819FFC72C00958EAC /* AppSettingsAndDefaultsTests.m */; };
+		0920968319FFCDB300958EAC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0920968219FFCDB300958EAC /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0920967219FFC72C00958EAC /* AppSettingsAndDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSettingsAndDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0920967719FFC72C00958EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0920967819FFC72C00958EAC /* AppSettingsAndDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSettingsAndDefaultsTests.m; sourceTree = "<group>"; };
+		0920968219FFCDB300958EAC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				0920966119FFC72C00958EAC /* AppDelegate.m */,
 				0920966319FFC72C00958EAC /* ViewController.h */,
 				0920966419FFC72C00958EAC /* ViewController.m */,
+				0920968219FFCDB300958EAC /* Settings.bundle */,
 				0920966619FFC72C00958EAC /* Main.storyboard */,
 				0920966919FFC72C00958EAC /* Images.xcassets */,
 				0920966B19FFC72C00958EAC /* LaunchScreen.xib */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0920968319FFCDB300958EAC /* Settings.bundle in Resources */,
 				0920966819FFC72C00958EAC /* Main.storyboard in Resources */,
 				0920966D19FFC72C00958EAC /* LaunchScreen.xib in Resources */,
 				0920966A19FFC72C00958EAC /* Images.xcassets in Resources */,
